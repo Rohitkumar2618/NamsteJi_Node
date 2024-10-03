@@ -1,9 +1,6 @@
-import { calculateSub } from "./calculate/sub.js";
-import { calculateSum } from "./calculate/sum.js";
-
+const { calculateSub, calculateSum } = require("./calculate/index");
 let a = 10;
 let b = 10;
 
 calculateSum(a, b);
-calculateSub;
-console.log(a);
+calculateSub(a, b);
